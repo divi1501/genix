@@ -14,7 +14,7 @@ export default function Header() {
                 <Nav className="me-auto">
                 <Nav.Link><Link style={{color:"white"}} to='/projects'>Project</Link></Nav.Link>
                 <Nav.Link><Link style={{color:"white"}} to='/indivproject'>IndivProject</Link></Nav.Link>
-                <Nav.Link><Link style={{color:"white"}} to='/projects'>Project</Link></Nav.Link>
+                <Nav.Link><Link style={{color:"white"}} to='/adminproject'>Admin</Link></Nav.Link>
                 <Nav.Link><Link style={{color:"white"}} to='/about'>AboutUs</Link></Nav.Link>
                   <Button variant="outline-secondary" style={{color:"white"}} className='bt1'>Secondary</Button>{' '}
                 </Nav>

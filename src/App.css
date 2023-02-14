@@ -382,16 +382,18 @@
   background: #FFFFFF;
   border: 1px solid #0085FF;
   border-radius: 9px;
-  margin-left: 150%;
+  margin-left: 30%;
 }
 
 .SearchC {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .CourseSearchBtn {
   background: #0085FF;
+  height: 32px;
   border-radius: 6px;
   margin-left: 10px;
   font-family: 'Poppins';
@@ -675,4 +677,21 @@ text-align: center;
 letter-spacing: -0.002em;
 
 color: #FFFFFF;
+}
+
+.AddProjectBtn{
+  width:132px;
+  height: 32px;
+background: #0085FF;
+border-radius: 6px;
+border-color: transparent;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 10px;
+}
+.Add{
+  width: 24px;
+height: 24px;
 }

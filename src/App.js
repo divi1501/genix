@@ -8,6 +8,7 @@ import ProjectNAv from './Mycomponents/projectNav';
 import About from './Mycomponents/About';
 import Description from './Mycomponents/Description';
 import IndivProject from './Mycomponents/IndivProject.jsx';
+import ProjectNavAdmin from './Mycomponents/ProjectNavAdmin';
 // import Button from 'react-bootstrap/Button';
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/projects' element={<ProjectNAv />} />
         <Route path='/about' element={<About />} />
         <Route path='/indivproject' element={<IndivProject />} />
+        <Route path='/adminproject' element={<ProjectNavAdmin/>} />
       </Routes>
 
       <Footer />
