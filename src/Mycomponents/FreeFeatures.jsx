@@ -26,7 +26,7 @@ const FreeFeatures = () => {
                                 </Card.Text>
                                 <div className='cardBlue'>
                                     <p className='CardRate'>RS 1500</p>
-                                    <Button className='CardButton' variant="primary">Buy Now</Button>
+                                    <button className='CardButton' variant="primary">Buy Now</button>
                                 </div>
                             </Card.Body>
                         </Card>
@@ -43,7 +43,7 @@ const FreeFeatures = () => {
                                 </Card.Text>
                                 <div className='cardBlue'>
                                     <p className='CardRate'>RS 1500</p>
-                                    <Button className='CardButton' variant="primary">Buy Now</Button>
+                                    <button className='CardButton' variant="primary">Buy Now</button>
                                 </div>
                             </Card.Body>
                         </Card>
@@ -60,7 +60,7 @@ const FreeFeatures = () => {
                                 </Card.Text>
                                 <div className='cardBlue'>
                                     <p className='CardRate'>RS 1500</p>
-                                    <Button className='CardButton' variant="primary">Buy Now</Button>
+                                    <button className='CardButton' variant="primary">Buy Now</button>
                                 </div>
                             </Card.Body>
                         </Card>
