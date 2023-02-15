@@ -13,7 +13,7 @@ export default function ProjectNAv() {
             </h2>
 
             <div className='SearchC'>
-                <input type="text" className='CourseSearchBar'  id="" />
+                <input type="text" className='CourseSearchBar2'  id="" />
                 <input type="button" className='CourseSearchBtn' value="Search" />
             </div>
         </div>
@@ -31,7 +31,7 @@ export default function ProjectNAv() {
                             </Card.Text>
                             <div className='cardBlue'>
                                 <p className='CardRate'>RS 1500</p>
-                                <Button className='CardButton' variant="primary">Buy Now</Button>
+                                <button className='CardButton' variant="primary">Buy Now</button>
                             </div>
                         </Card.Body>
                     </Card>
@@ -48,7 +48,7 @@ export default function ProjectNAv() {
                             </Card.Text>
                             <div className='cardBlue'>
                                 <p className='CardRate'>RS 1500</p>
-                                <Button className='CardButton' variant="primary">Buy Now</Button>
+                                <button className='CardButton' variant="primary">Buy Now</button>
                             </div>
                         </Card.Body>
                     </Card>
@@ -65,7 +65,7 @@ export default function ProjectNAv() {
                             </Card.Text>
                             <div className='cardBlue'>
                                 <p className='CardRate'>RS 1500</p>
-                                <Button className='CardButton' variant="primary">Buy Now</Button>
+                                <button className='CardButton' variant="primary">Buy Now</button>
                             </div>
                         </Card.Body>
                     </Card>
@@ -87,7 +87,7 @@ export default function ProjectNAv() {
                             </Card.Text>
                             <div className='cardBlue'>
                                 <p className='CardRate'>RS 1500</p>
-                                <Button className='CardButton' variant="primary">Buy Now</Button>
+                                <button className='CardButton' variant="primary">Buy Now</button>
                             </div>
                         </Card.Body>
                     </Card>
@@ -104,7 +104,7 @@ export default function ProjectNAv() {
                             </Card.Text>
                             <div className='cardBlue'>
                                 <p className='CardRate'>RS 1500</p>
-                                <Button className='CardButton' variant="primary">Buy Now</Button>
+                                <button className='CardButton' variant="primary">Buy Now</button>
                             </div>
                         </Card.Body>
                     </Card>
@@ -121,7 +121,7 @@ export default function ProjectNAv() {
                             </Card.Text>
                             <div className='cardBlue'>
                                 <p className='CardRate'>RS 1500</p>
-                                <Button className='CardButton' variant="primary">Buy Now</Button>
+                                <button className='CardButton' variant="primary">Buy Now</button>
                             </div>
                         </Card.Body>
                     </Card>
@@ -130,7 +130,7 @@ export default function ProjectNAv() {
 
             </div>
             <div className='CardButtonlightC'>
-                <Button className='CardButtonlight'>Explore More</Button>
+                <button className='CardButtonlight'>Explore More</button>
             </div>
         </div>
         

@@ -14,8 +14,8 @@ export default function Description() {
                 <div>
                     <p className='para1'>Lorem ipsum dolor sit amet consectetur. Erat in commodo in a. Sit interdum mi felis laoreet sagittis.</p></div>
                 <div>
-                    <Button className='bt2'>Secondary</Button>{' '}
-                    <Button className='bt3'>Learn More</Button>{' '}
+                    <button className='bt2'>Explore Projects</button>
+                    <button className='bt3'>Learn More</button>
                 </div>
             </div>
 

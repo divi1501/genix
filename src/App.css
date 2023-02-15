@@ -39,9 +39,32 @@
 .bt1 {
   margin-left: 15%;
 }
+.signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 116px;
+height: 44px;
+background: #0085FF;
+border-radius: 12px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
 
-.navBtn {
-  color: white;
+margin: 0 5px 0 5px;
+}
+.navLink{
+  margin-right: 10px;
+}
+
+
+.signup img{
+  width: 23px;
+height: 23px;
+margin-right: 3px;
 }
 
 .DescT {
@@ -50,31 +73,21 @@
 }
 
 .bt2 {
-  position: relative;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFFFFF;
-  width: 170px;
-  height: 44px;
-
-
-  background: #0085FF;
-  border-radius: 12px;
+width: 170px;
+height: 44px;
+background: #0085FF;
+border-radius: 12px;
+color: white;
 }
 
 .bt3 {
-  box-sizing: border-box;
-  margin-left: 20px;
-  position: absolute;
+  margin: 0 10px 0 10px;
   width: 142px;
-  height: 44px;
-
-
+  height: 44px; 
   border: 1px solid #FFFFFF;
   border-radius: 12px;
+  background-color: transparent;
+  color: white;
 }
 
 .img1 {
@@ -188,10 +201,13 @@
 }
 
 .CardButton {
-  height: 2rem;
-
-  margin: 10px;
-
+  width: 101px;
+  height: 32px;  
+  background: #0085FF;
+  border-radius: 6px;
+  margin: 10px 10px 10px 30px;
+  border-color: transparent;
+  color: white;
 }
 
 .CardButtonlightC {
@@ -213,7 +229,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-
+  background-color: transparent;
 
   color: #0085FF;
 }
@@ -384,7 +400,15 @@
   border-radius: 9px;
   margin-left: 30%;
 }
+.CourseSearchBar2 {
+  width: 280px;
+  height: 32px;
 
+  background: #FFFFFF;
+  border: 1px solid #0085FF;
+  border-radius: 9px;
+  margin-left: 45%;
+}
 .SearchC {
   display: flex;
   align-items: center;

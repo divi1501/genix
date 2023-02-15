@@ -25,7 +25,7 @@ export default function CardContainer() {
                             </Card.Text>
                             <div className='cardBlue'>
                                 <p className='CardRate'>RS 1500</p>
-                                <Button className='CardButton' variant="primary">Buy Now</Button>
+                                <button className='CardButton' variant="primary">Buy Now</button>
                             </div>
                         </Card.Body>
                     </Card>
@@ -42,7 +42,7 @@ export default function CardContainer() {
                             </Card.Text>
                             <div className='cardBlue'>
                                 <p className='CardRate'>RS 1500</p>
-                                <Button className='CardButton' variant="primary">Buy Now</Button>
+                                <button className='CardButton' variant="primary">Buy Now</button>
                             </div>
                         </Card.Body>
                     </Card>
@@ -59,7 +59,7 @@ export default function CardContainer() {
                             </Card.Text>
                             <div className='cardBlue'>
                                 <p className='CardRate'>RS 1500</p>
-                                <Button className='CardButton' variant="primary">Buy Now</Button>
+                                < button className='CardButton' variant="primary">Buy Now</button>
                             </div>
                         </Card.Body>
                     </Card>
@@ -70,7 +70,7 @@ export default function CardContainer() {
 
             </div>
             <div className='CardButtonlightC'>
-                <Button className='CardButtonlight'>Explore More</Button>
+                <button className='CardButtonlight'>Explore More</button>
             </div>
         </div>
     )
