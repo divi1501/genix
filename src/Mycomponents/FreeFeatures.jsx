@@ -10,7 +10,7 @@ const FreeFeatures = () => {
             <div className='FeaturesContainer'>
                 <div>
                     <h2 className='FeaturesHeading'>
-                        Our Features and Services
+                    Check out our free Resources
                     </h2>
                 </div>
                 <div className='CardC'>

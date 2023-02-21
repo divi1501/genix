@@ -15,13 +15,13 @@ const HelpSec = () => {
         <div className='BigFeatureDesc' >
             <div>
                 <h2 style={{ color: "#0085FF" }} className='FeaturesHeading'>
-                    Our Features and Services
+                Need Help? Reach out to us
                 </h2>
             </div>
 
             <div className='FeaturesDesc'>
                 <p className='StandPara'>
-                    Lorem ipsum dolor sit amet consectetur. Euismod diam phasellus quis aliquet purus sem ornare mollis vulputate. Sapien purus faucibus massa pharetra.
+                Come on, if you need any assistance or want any clarification let’s connect and resolve it. We are here with you at every step of your journey.
                 </p>
             </div>
             <div className='HelpBtnC'>

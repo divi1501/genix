@@ -17,13 +17,13 @@ const BigFeatures = () => {
                 <div className='BigFeatureDesc' >
                     <div>
                         <h2 className='FeaturesHeading'>
-                            Our Features and Services
+                        Industry Standard Projects
                         </h2>
                     </div>
 
                     <div className='FeaturesDesc'>
                         <p className='StandPara'>
-                            Lorem ipsum dolor sit amet consectetur. Euismod diam phasellus quis aliquet purus sem ornare mollis vulputate. Sapien purus faucibus massa pharetra.
+                        Our courses are designed to provide hands-on, practical experience, so you can apply what you learn in real-world scenarios. Our courses are designed to be flexible, so you can study at your own pace and on your own schedule. Whether you have a busy work schedule or just prefer to learn in the evenings, our courses are accessible whenever and wherever you need them.
                         </p>
                     </div>
                 </div>
@@ -35,13 +35,13 @@ const BigFeatures = () => {
                 <div className='BigFeatureDesc' >
                     <div>
                         <h2 className='FeaturesHeading'>
-                            Our Features and Services
+                        24/7 Students Support
                         </h2>
                     </div>
 
                     <div className='FeaturesDesc'>
                         <p className='StandPara'>
-                            Lorem ipsum dolor sit amet consectetur. Euismod diam phasellus quis aliquet purus sem ornare mollis vulputate. Sapien purus faucibus massa pharetra.
+                        Our expert instructors have years of experience in the industry and will guide you every step of the way.So why wait? Start your journey to becoming a machine learning expert today!
                         </p>
                     </div>
                 </div>
