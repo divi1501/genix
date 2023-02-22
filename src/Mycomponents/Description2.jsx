@@ -5,7 +5,7 @@ const Description2 = () => {
     <div>
       <div className='thirdLanding'>
                 <div className="thirdLandinga">
-                    <p>We will help you deliver end to end projects with Ease</p>
+                    <p>Your destination to experience and learn along real life practical projects</p>
                 </div>
 
             </div>
