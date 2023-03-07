@@ -25,16 +25,35 @@ export default function Header() {
       <Navbar className='navbar' variant="dark">
         <Container>
           <Navbar.Brand className='learningGennix'><Link style={{ color: "white" }} to='/'><span style={{ color: "#0085FF" }} >//</span>Learning Genix</Link></Navbar.Brand>
-          <div>
+          
+          <div className='navlinks'>
+
             <Nav className="me-auto">
               <Nav.Link className='navLink' ><Link style={{ color: "white" }} to='/projects'>Project</Link></Nav.Link >
-              <Nav.Link className='navLink' ><Link style={{ color: "white" }} to='/indivproject'>IndivProject</Link></Nav.Link >
+              <Nav.Link className='navLink' >
+                <Link style={{ color: "white" }} to='/indivproject'>IndivProject</Link>
+              </Nav.Link >
+
+
               {user == 'learninggenix@gmail.com' ? <Nav.Link className='navLink'><Link style={{ color: "white" }} to='/adminproject'>Admin</Link></Nav.Link > : <div></div>}
-              <Nav.Link className='navLink'><Link style={{ color: "white" }} to='/about'>AboutUs</Link></Nav.Link >
+
+              <Nav.Link className='navLink'>
+                <Link style={{ color: "white" }} to='/resources'>Resources</Link>
+              </Nav.Link >
+
+              <Nav.Link className='navLink'>
+                <Link style={{ color: "white" }} to='/about'>AboutUs</Link>
+              </Nav.Link >
+
+              
               {user ? <Nav.Link className='navLink' onClick={handleSignOut}> <Link style={{ color: "white" }} to='/signup'><div className="signup">
+
+
                 <img src={SignupImg} alt="" />
                 <span style={{ color: "#ffff" }}>Logout</span>
-              </div></Link></Nav.Link> : <Nav.Link className='navLink'> <Link style={{ color: "white" }} to='/signup'><div className="signup">
+              </div>
+              </Link></Nav.Link> : <Nav.Link className='navLink'> <Link style={{ color: "white" }} to='/signup'>
+                <div className="signup">
                 <img src={SignupImg} alt="" />
                 <span style={{ color: "#fff" }}>Sign up</span>
               </div></Link></Nav.Link>}

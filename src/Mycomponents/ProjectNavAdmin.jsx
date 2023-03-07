@@ -222,6 +222,11 @@ export default function ProjectNAvAdmin() {
                         <input type="file" multiple={true} onChange={(e) => setPdf(e.target.files[0])} class="form-control" id="customFile" />
                     </div>
 
+                    <div className="innerc">
+                        <h5>Price</h5>
+                        <input className='TitleInput' type="text" onChange={(e) => setTitle(e.target.value)} />
+                    </div>
+
 
                     <div className='BtnC'>
                         <button onClick={() => SetButtonPopup(false)} className='CancelBtn'>Cancel</button>

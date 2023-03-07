@@ -47,7 +47,7 @@ h3 {
 }
 
 .innerc {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .innerc h5 {
   font-family: "Poppins";
@@ -81,6 +81,9 @@ h3 {
   font-size: 16px;
   line-height: 24px;
   color: #0085ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .DoneBtn {

@@ -1,8 +1,8 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ImgCard from './123.png';
-import HelpImg1 from '../img/helpimg1.png'
+import FreeFeatureImg from '../img/FreeFeatureImg.png';
+
 
 const FreeFeatures = () => {
     return (
@@ -17,7 +17,7 @@ const FreeFeatures = () => {
 
                     <div className='Card'>
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={ImgCard} />
+                            <Card.Img variant="top" src={FreeFeatureImg} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
                                 <Card.Text>

@@ -11,6 +11,8 @@ import IndivProject from './Mycomponents/IndivProject.jsx';
 import ProjectNavAdmin from './Mycomponents/ProjectNavAdmin.jsx';
 import Register from './Mycomponents/register.jsx';
 import Login from './Mycomponents/Login.jsx';
+import Resources from './Mycomponents/Resources.jsx';
+
 // import Button from 'react-bootstrap/Button';
 let user = localStorage.getItem('user')
 
@@ -27,6 +29,7 @@ function App() {
         <Route path='/adminproject' element={<ProjectNavAdmin />} />
         <Route path='/signup' element={<Register />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/resources' element={<Resources />} />
       </Routes>
 
       <Footer />

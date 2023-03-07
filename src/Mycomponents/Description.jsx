@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Imagediv from '../img/Saly-10.png';
+import { Link } from 'react-router-dom';
 import '../App.css'
 export default function Description() {
     return (
@@ -14,8 +15,8 @@ export default function Description() {
                 <div>
                     <p className='para1'>Hands on practical projects that will help you develop the skills you need to succeed in the field.</p></div>
                 <div>
-                    <button className='bt2'>Explore Projects</button>
-                    <button className='bt3'>Learn More</button>
+                    <Link to='/projects'><button className='bt2'>Explore Projects</button></Link>
+                    <Link to='/about'><button className='bt3'>Learn More</button></Link>
                 </div>
             </div>
 
