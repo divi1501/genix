@@ -2,6 +2,8 @@ import React from 'react';
 import IndivProjectImg from '../img/FaceRecognition.png'
 import Button from 'react-bootstrap/Button';
 import VideoImg from '../img/VideoLecture.png';
+import { Link } from 'react-router-dom';
+import HelpSec from './HelpSec';
 
 const IndivProject = () => {
     return (
@@ -18,7 +20,7 @@ const IndivProject = () => {
                         <div>
                             <p className='para1'>Lorem ipsum dolor sit amet consectetur. Erat in commodo in a. Sit interdum mi felis laoreet sagittis.</p></div>
                         <div>
-                            <Button className='bt2'>Secondary</Button>{' '}
+                        <Link to='/signup'><button className='bt2'>Register Now</button></Link>
                         </div>
                     </div>
                     <img className='IndivProjectImg' src={IndivProjectImg} />
@@ -92,11 +94,26 @@ const IndivProject = () => {
 
 
             <div className='advantages2'>
-                <div>
+                    <p>
             Our projects are designed to be flexible, so you can study at your own pace and on your own schedule. Whether you have a busy work schedule or just prefer to learn in the evenings, our courses are accessible whenever and wherever you need them.
+            </p>
+            <div >
+                So Why Wait?
             </div>
+
+            <Link to='/signup'><button className='bt2'>Register Now</button></Link>
+
             </div>
+
+
+            <HelpSec/>
+
+
+
         </div>
+
+
+
     )
 }
 

@@ -710,9 +710,15 @@ height: 403.31px;
 background: #0A183A;
 box-shadow: 0px 0px 9px rgba(153, 153, 151, 0.25);
 border-radius: 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 .advantages2 p{
+  width: 1188px;
+height: 120px;
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -724,7 +730,30 @@ text-align: center;
 letter-spacing: -0.002em;
 
 color: #FFFFFF;
+margin-bottom: 50px;
 }
+
+.advantages2 div{
+  width: 1188px;
+height: 38px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+/* or 131% */
+
+text-align: center;
+letter-spacing: -0.002em;
+
+color: #FFFFFF;
+margin-bottom: 30px;
+}
+
+
+
+
+
 
 .AddProjectBtn{
   width:132px;
@@ -766,4 +795,77 @@ color: white;
 
 .CardHeaderImg{
   width: 44px;
+}
+
+
+.ResourceCard{
+  padding: 10px;
+}
+
+.ResourceCardImg{
+  width: 313px;
+  /* height: px; */
+  border-radius: 12px 12px 0px 0px;
+}
+
+.GridImg{
+  /* position: relative; */
+  width: 20px;
+height: 20px;
+}
+
+.Subtitle{
+  /* position: relative; */
+  display: flex;
+  
+}
+
+.ResourceCardCategory p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+
+  color: #787878;
+  /* width: 131px;
+height: 21px; */
+}
+
+.ResourceTitleP{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px; 
+letter-spacing: -0.002em;
+color: #000000;
+}
+
+.ResourceCardSection{
+display: flex;
+align-items: end;
+justify-content: center;
+margin-top: 20px;
+}
+
+.readmore img{
+  width: 20px;
+height: 20px;
+}
+
+.readmore p{
+  /* width: 20px; */
+height: 13px;
+}
+
+.readmore{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.Date{
+  height: 13px;
 }

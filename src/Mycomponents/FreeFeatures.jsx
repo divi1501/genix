@@ -2,6 +2,11 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import ImgCard from './123.png';
 import FreeFeatureImg from '../img/FreeFeatureImg.png';
+import ResourcesImg from '../img/resources.png';
+import GridImg from '../img/grid.png'
+// import Card from 'react-bootstrap/Card';
+import ArrowImg from '../img/arrow-right.png'
+import { Link } from 'react-router-dom';
 
 
 const FreeFeatures = () => {
@@ -16,54 +21,75 @@ const FreeFeatures = () => {
                 <div className='CardC'>
 
                     <div className='Card'>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={FreeFeatureImg} />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                                <div className='cardBlue'>
-                                    <p className='CardRate'>RS 1500</p>
-                                    <button className='CardButton' variant="primary">Buy Now</button>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={ResourcesImg} />
+                        <Card.Body>
+                        <Card.Subtitle className="mb-2 text-muted"><div className='Subtitle'><div><img className='GridImg' src={GridImg} alt="" /></div><div> Web Development</div></div></Card.Subtitle>
+                            <Card.Title><div className='ResourceTitleP'>
+                            Google Flutter from Scratch
+                            </div>  </Card.Title>
+                            
+                            <div className='ResourceCardSection'>
+                                <p className='Date'>DATE</p>
+                                <div className='readmore'>
+                            <Link style={{ color: "#0085FF" }} to='/resources'>
+                                      <p>Read More </p>
+                                      </Link>
+                                    <img src={ArrowImg} alt="" />
+                            
                                 </div>
-                            </Card.Body>
-                        </Card>
+                                
+                            </div>
+                        </Card.Body>
+                    </Card>
                     </div>
 
                     <div className='Card'>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={ImgCard} />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                                <div className='cardBlue'>
-                                    <p className='CardRate'>RS 1500</p>
-                                    <button className='CardButton' variant="primary">Buy Now</button>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={ResourcesImg} />
+                        <Card.Body>
+                        <Card.Subtitle className="mb-2 text-muted"><div className='Subtitle'><div><img className='GridImg' src={GridImg} alt="" /></div><div> Web Development</div></div></Card.Subtitle>
+                            <Card.Title><div className='ResourceTitleP'>
+                            Google Flutter from Scratch
+                            </div>  </Card.Title>
+                            
+                            <div className='ResourceCardSection'>
+                                <p className='Date'>DATE</p>
+                                <div className='readmore'>
+                            <Link style={{ color: "#0085FF" }} to='/resources'>
+                                      <p>Read More </p>
+                                      </Link>
+                                    <img src={ArrowImg} alt="" />
+                            
                                 </div>
-                            </Card.Body>
-                        </Card>
+                                
+                            </div>
+                        </Card.Body>
+                    </Card>
                     </div>
 
                     <div className='Card'>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={ImgCard} />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                                <div className='cardBlue'>
-                                    <p className='CardRate'>RS 1500</p>
-                                    <button className='CardButton' variant="primary">Buy Now</button>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={ResourcesImg} />
+                        <Card.Body>
+                        <Card.Subtitle className="mb-2 text-muted"><div className='Subtitle'><div><img className='GridImg' src={GridImg} alt="" /></div><div> Web Development</div></div></Card.Subtitle>
+                            <Card.Title><div className='ResourceTitleP'>
+                            Google Flutter from Scratch
+                            </div>  </Card.Title>
+                            
+                            <div className='ResourceCardSection'>
+                                <p className='Date'>DATE</p>
+                                <div className='readmore'>
+                            <Link style={{ color: "#0085FF" }} to='/resources'>
+                                      <p>Read More </p>
+                                      </Link>
+                                    <img src={ArrowImg} alt="" />
+                            
                                 </div>
-                            </Card.Body>
-                        </Card>
+                                
+                            </div>
+                        </Card.Body>
+                    </Card>
                     </div>
 
                 </div>
